@@ -6,7 +6,10 @@ class Speedometer extends Component {
   state = {count: 0}
 
   onAccelerating = () => {
-    this.setState(prev => ({count: prev.count + 10}))
+    const {count} = this.state
+    if (count < 200) {
+      this.setState(prev => ({count: prev.count + 10}))
+    }
   }
 
   onBrake = () => {
