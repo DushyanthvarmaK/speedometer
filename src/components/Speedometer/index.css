@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+}
+.image {
+  width: 50vw;
+  align-self: center;
+}
+.main-heading {
+  color: white;
+}
+.heading {
+  color: white;
+}
+.para {
+  color: white;
+}
+.acc-button {
+  background-color: blue;
+  border: 0px solid;
+  margin-right: 20px;
+  height: 25px;
+  width: 80px;
+  border-radius: 10px;
+}
+.brake-button {
+  background-color: black;
+  border: 2px solid white;
+  color: white;
+  margin-right: 20px;
+  height: 25px;
+  width: 120px;
+  border-radius: 10px;
+}
